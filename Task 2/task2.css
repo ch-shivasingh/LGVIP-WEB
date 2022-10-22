@@ -1,0 +1,48 @@
+body{
+    background-color: grey;
+}
+div h2{
+    font-size: 100px;
+    margin:0px;
+}
+.main {
+    display: grid;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.main > div {
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.button {
+    background-color: rgb(255, 122, 5);
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 45px 45px 45px 45px;
+    cursor: pointer;
+}
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    border: 5px solid rgb(190, 190, 190);
+    border-radius: 45px 45px 45px 45px;
+}
+
+#display {
+    background-color: rgb(190, 235, 249);
+    text-align: right;
+    height: 68px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border-radius: 45px 45px 45px 45px;
+}
+
+#res {
+    background-color: red;
+    color: white;
+}
